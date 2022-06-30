@@ -1,0 +1,136 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  outline: 1px solid red;
+  margin: auto;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  max-width: 1280px;
+  min-width: 320px;
+  color: #000;
+}
+
+.header {
+  background-image: url(../img/headerFon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+}
+
+.header__top {
+  text-align: center;
+  padding-top: 68px;
+}
+
+.header__logo {
+  margin-bottom: 60px;
+}
+
+.header__title {
+  font-size: 50px;
+  line-height: 62px;
+  color: #fff;
+  max-width: 755px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.header__title span {
+  font-weight: 900;
+}
+
+.header__bottom {
+  max-width: 335px;
+  min-height: 335px;
+  background-color: #fff;
+  padding: 30px 0px 25px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  position: absolute;
+  bottom: -130px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header__input {
+  color: #938e8e;
+  line-height: 23px;
+  padding: 5px 15px;
+  border: 1px solid #e5e5e5;
+  outline: none;
+  max-width: 265px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.hader__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__img {
+  height: 100%;
+  width: 100%;
+}
+
+.test {
+  width: 19%;
+}
+.test:nth-child(1) {
+  width: 22%;
+}
+.test:nth-child(5) {
+  width: 21%;
+}
+.test:nth-child(7) {
+  width: 22%;
+}
+.test:nth-child(8) {
+  width: 21%;
+}
+
+.header__description {
+  max-width: 81%;
+  text-align: center;
+  margin: auto;
+  padding: 23px 0px;
+  line-height: 23px;
+  color: #938e8e;
+}
+
+.header__button {
+  text-transform: uppercase;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #227dd3;
+  padding: 10px 38px 10px;
+}
