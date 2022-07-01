@@ -23,7 +23,6 @@ li {
 }
 
 body {
-  outline: 1px solid red;
   margin: auto;
   padding: 0;
   font-family: "Open Sans", sans-serif;
@@ -278,4 +277,60 @@ body {
       -ms-transform: rotate(3.3deg);
           transform: rotate(3.3deg);
   position: absolute;
+}
+
+.forms {
+  background-image: url(../img/Layer16.jpg);
+  background-repeat: no-repeat;
+}
+
+.input {
+  display: block;
+  margin: auto;
+  outline: none;
+  border: 1px solid #d8d8d8;
+  font-size: 14px;
+  color: #4c505d;
+  padding: 10px 15px;
+  margin-bottom: 14px;
+  max-width: 275px;
+  width: 100%;
+}
+
+.submit {
+  margin-top: 32px;
+}
+
+.forms__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  min-height: 635px;
+  padding-bottom: 40px;
+}
+
+.forms__inner {
+  background-color: #fff;
+  border-radius: 100%;
+  max-width: 480px;
+  opacity: 0.8;
+  text-align: center;
+  padding: 80px 100px 50px;
+}
+
+.footer {
+  background-color: #43a06d;
+}
+
+.footer__box {
+  font-size: 14px;
+  color: #fff;
+  line-height: 44px;
+  text-align: center;
 }

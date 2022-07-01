@@ -19,7 +19,6 @@ li{
 }
 
 body{
-    outline: 1px solid red;
     margin: auto;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -233,6 +232,50 @@ body{
     z-index: 1000;
     top: -41px;
     transform: rotate(3.3deg);
-
     position: absolute;
+}
+//forms
+.forms {
+    background-image: url(../img/Layer16.jpg);
+    background-repeat: no-repeat;
+}
+.input {
+    display: block;
+    margin: auto;
+    outline: none;
+    border: 1px solid #d8d8d8;
+    font-size: 14px;
+    color: #4c505d;
+    padding: 10px 15px;
+    margin-bottom: 14px;
+    max-width: 275px;
+    width: 100%;
+}
+.submit {
+    margin-top: 32px;
+}
+.forms__box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    min-height: 635px;
+    padding-bottom: 40px;
+}
+.forms__inner {
+    background-color: #fff;
+    border-radius: 100%;
+    max-width: 480px;
+    opacity: .8;
+    text-align: center;
+    padding: 80px 100px 50px;
+}
+//Footer
+.footer {
+    background-color: #43a06d;
+}
+.footer__box {
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+    text-align: center;
 }
